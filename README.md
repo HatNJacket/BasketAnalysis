@@ -3,9 +3,6 @@
 - [X] Apriori Function
     - [X] Functional
     - [X] Optimize Apriori
-- [ ] Do PCY
-    - [ ] Functional
-    - [ ] Optimize PCY
 - [ ] Build graphics
 - [ ] Set up an html homepage
     - [ ] Frontend
