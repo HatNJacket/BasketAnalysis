@@ -11,4 +11,3 @@
     - [ ] Frontend
     - [ ] Backend
     - [ ] Graphics
-Anything more is just a happy extra bit. Think about all this after the website is set up and displaying graphs.
