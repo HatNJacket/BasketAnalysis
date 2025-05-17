@@ -1,0 +1,7 @@
+### These files should be ignored by github
+
+# cashed python files
+__pycache__/*
+
+# README.md
+*.md
