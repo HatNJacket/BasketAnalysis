@@ -1,0 +1,37 @@
+# Passes 2 to n
+    # C = []
+    # L = list(frequent_sets)
+    # for k in range(2, n+1):
+    #     print(k)
+    #     print(frequent_sets, "Sets")
+        
+    #     # Generate C_k
+    #     frequent_items = Counter()
+    #     C = [tuple(sorted(set(comb))) for comb in combinations(L, k)]
+    #     if(len(C) == 0):
+    #         break
+
+    #     for combination in C:
+    #         frequent_items[tuple(combination)] = 0
+    
+    #     # Generate L_k
+    #     start = time.time()
+    #     for basket in dataset:
+    #         if len(basket) < k:
+    #             continue
+            
+    #         basket_set = set(basket)
+
+    #         kCombs = [tuple(sorted(comb)) for comb in combinations(basket_set, k)]
+
+    #         # Count each instance of each combination
+    #         for foundComb in kCombs:
+    #             if foundComb in frequent_items:
+    #                 frequent_items[foundComb] += 1
+    #     print(time.time() - start)
+        
+    #     # Prune Step using dictionary comprehension
+    #     frequent_items = {item: count for item, count in frequent_items.items() if count >= min_support}
+
+    #     # Convert items to list format for final frequent_sets update
+    #     frequent_sets.update(set(map(list, frequent_items.keys())))
